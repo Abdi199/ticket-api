@@ -1,0 +1,32 @@
+.header{
+	display: flex;
+	gap: 3rem;
+	border-radius: 1rem;
+	padding: 0.5rem;
+	align-items: center;
+}
+
+.header__title ul{
+	position: absolute;
+	gap: 2rem;
+	
+}
+
+.header__title a {
+	text-decoration: none;
+}
+
+.header__sort-button {
+	padding: 0.5rem 1rem ;
+	cursor: pointer;
+}
+
+.header__sort-buttons {
+	display: flex;
+	gap: 1rem;
+}
+
+.header__sort-button--active {
+	background-color: darkgray;
+}
+

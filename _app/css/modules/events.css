@@ -1,0 +1,58 @@
+.events ul {
+	display: flex;
+	flex-direction: column;
+	margin: 1rem 1rem;
+	gap: 1rem;
+}
+
+.events__event {
+	background-color: black;
+	display: flex;
+	padding: 1rem;
+	justify-content: space-between;
+	align-items: center;
+	border-radius: 1rem;
+	color: aliceblue;
+}
+
+.events__image {
+	width: 25%;
+}
+
+.events__image img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.envents__buy-tickets button {
+	font-size: inherit;
+	border-radius: 0.2rem;
+	padding: 0.5rem 1rem;
+	cursor: pointer;
+	background-color: aliceblue;
+}
+
+.envents__buy-tickets button:hover {
+	background-color: rgba(240, 248, 255, 0.731);
+}
+
+.events__artist-information-container,
+.events__time-container {
+	display: flex;
+	gap: 0.5rem;
+	flex-direction: column;
+}
+
+.events__buy-tickets {
+	display: flex;
+	color: black;
+	padding: 1rem;
+	text-decoration: none;
+	background-color:antiquewhite;
+}
+ 
+.events__buy-tickets:hover {
+	background-color:gray;
+}
+         
